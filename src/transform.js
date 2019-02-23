@@ -25,6 +25,7 @@ const groupAdultsByAgeRange = arr => {
         if (person.age >= 51) {
             key = '51 and older'
         }
+
         if (key != null) {
             acc[key].push(person)
         }

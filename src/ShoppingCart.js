@@ -8,7 +8,7 @@ class ShoppingCart {
     }
 
     addItem(itemName, quantity, price) {
-        return this.items.push({
+        this.items.push({
             name: itemName,
             quantity: quantity,
             pricePerUnit: price
@@ -16,7 +16,7 @@ class ShoppingCart {
     }
 
     clear() {
-        return this.items = []
+        this.items = []
     }
     
     total() {
