@@ -1,5 +1,5 @@
 const giveItBackLater = (value, callback) => {
-    setTimeout(() => callback(value), callback)
+    setTimeout(() => callback(value), 100)
 
 }
 
